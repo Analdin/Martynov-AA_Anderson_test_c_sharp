@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Martynov_AA_Anderson_test_c_sharp.Array
 {
-    internal class CheckArray
+    public class CheckArray
     {
+        public void JobWithArray()
+        {
+
+        }
     }
 }

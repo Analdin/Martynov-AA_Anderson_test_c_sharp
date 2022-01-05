@@ -5,6 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Collections.Generic;
 using Martynov_AA_Anderson_test_c_sharp.Number;
+using Martynov_AA_Anderson_test_c_sharp.Name;
+using Martynov_AA_Anderson_test_c_sharp.Array;
 
 namespace MainMenu
 {
@@ -21,7 +23,7 @@ namespace MainMenu
             switch (i)
             {
                 case 1:
-                    Console.WriteLine("Проверяем цифру 7...");
+                    Console.WriteLine("Проверяем цифру...");
 
                     NumberSeven numberSeven = new NumberSeven();
                     numberSeven.JobWithNumbers();
@@ -29,15 +31,23 @@ namespace MainMenu
                     break;
                 case 2:
                     Console.WriteLine("Проверяем имя...");
+
+                    CheckName checkName = new CheckName();
+                    checkName.JobWithName();
+
                     break;
                 case 3:
                     Console.WriteLine("Проверяем массив...");
+
+                    CheckArray checkArray = new CheckArray();
+                    checkArray.JobWithArray();
+
                     break;
                 default:
                     Console.WriteLine("Нажато что-то другое...");
                     break;
             }
-            Console.WriteLine("\nНажмите любую клавишу:");
+            Console.WriteLine("\nНажмите любую клавишу для закрытия программы");
             Console.ReadLine();
             Console.Clear();
         }

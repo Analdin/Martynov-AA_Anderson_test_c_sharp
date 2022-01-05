@@ -17,11 +17,11 @@ namespace Martynov_AA_Anderson_test_c_sharp.Number
             Console.WriteLine("Введите число:");
             int num = Convert.ToInt32(Console.ReadLine());
 
-            while (num <= 7)
+            while (true)
             {
-                if (num > 7)
+                if (num >= 7)
                 {
-                    Console.WriteLine("Привет:)");
+                    Console.WriteLine("Привет");
                     break;
                 }
                 else if(num <= 7)
