@@ -16,7 +16,7 @@ namespace MainMenu
         {
             int i;
 
-            Console.WriteLine("Меню (проверить):\n1) Цифру 7 \n2) Имя \n3) Массив \n\nНажмите нужную цифру (1-3): ");
+            Console.WriteLine("Меню (проверить):\n1) Цифру 7 \n2) Имя \n3) Массив \n4) Скобочную последовательность \n\nНажмите нужную цифру (1-4): ");
 
             i = int.Parse(Console.ReadLine());
 
@@ -41,6 +41,10 @@ namespace MainMenu
 
                     CheckArray checkArray = new CheckArray();
                     checkArray.JobWithArray();
+
+                    break;
+                case 4:
+                    Console.WriteLine("Проверяем скобочную последовательность...");
 
                     break;
                 default:
