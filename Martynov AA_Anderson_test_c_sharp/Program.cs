@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using Martynov_AA_Anderson_test_c_sharp.Number;
 using Martynov_AA_Anderson_test_c_sharp.Name;
 using Martynov_AA_Anderson_test_c_sharp.Array;
+using Martynov_AA_Anderson_test_c_sharp.Brackets;
 
 namespace MainMenu
 {
@@ -45,6 +46,9 @@ namespace MainMenu
                     break;
                 case 4:
                     Console.WriteLine("Проверяем скобочную последовательность...");
+
+                    CheckBrackets checkBrackets = new CheckBrackets();
+                    checkBrackets.JobWithBrackets();
 
                     break;
                 default:
