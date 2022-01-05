@@ -8,6 +8,9 @@ namespace Martynov_AA_Anderson_test_c_sharp.Name
 {
     public class CheckName
     {
+        /// <summary>
+        /// Проверяем имя на совпадение с нужным
+        /// </summary>
         public void JobWithName()
         {
             Console.WriteLine("Введите имя:");
