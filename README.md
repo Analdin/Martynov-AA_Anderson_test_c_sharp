@@ -1,6 +1,6 @@
 # Analdin - simple programm for checking - numbers, names, brackets and arrays
 
-This repository contains client-side (frontend). For server-side (backend) see WallyBackend
+This repository contains four blocks of the programm via c#
 
 ## How it works
 
